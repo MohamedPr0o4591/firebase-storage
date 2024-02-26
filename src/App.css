@@ -1,0 +1,76 @@
+.App .App-header {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.App .App-header label {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #012b1c;
+  color: #efefef;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+}
+
+.App .App-header label:hover,
+.App .App-header label:active {
+  background-color: #014b2c;
+}
+.App .App-header progress {
+  width: 25%;
+  padding: 15px;
+  color-scheme: dark;
+  accent-color: #0dcaf0;
+}
+
+.App .App-header .box-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.App .App-header .img-item {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin: 10px;
+}
+
+.App .App-header .box-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.6rem;
+}
+.App .App-header .img-item button {
+  display: none;
+}
+.App .App-header .img-item:hover button {
+  position: absolute;
+  display: block;
+  top: 5px;
+  right: 5px;
+  padding: 5px 10px;
+  background-color: #ff5252;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font-weight: bold;
+}
+
+.App .App-header .delete-all {
+  background: #ff5252;
+  color: #fff;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.App .App-header .delete-all:hover,
+.App .App-header .delete-all:active {
+  opacity: 0.7;
+}

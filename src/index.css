@@ -1,0 +1,28 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+body {
+  background: #262c33;
+  color: #efefef;
+}
+/* Scrollbar Track */
+::-webkit-scrollbar {
+  width: 3px;
+  /* حجم شريط التمرير */
+}
+
+/* Scrollbar Thumb (الجزء القابل للسحب) */
+::-webkit-scrollbar-thumb {
+  background-color: #012b1c;
+  /* لون الخلفية */
+  border-radius: 6px;
+  /* شكل الزوايا */
+}
+
+/* Scrollbar Track (الجزء الذي لا يمكن السحب) */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  /* لون المسار */
+}
